@@ -1,9 +1,10 @@
 import Vue from 'vue'
 import Router from 'vue-router'
 import Home from '@/components/Home'
-import Contact from '@/components/Contact'
-import About from '@/components/About'
-import User from '@/components/User_Login'
+import Contact from '@/pages/Contact'
+import About from '@/pages/About'
+import User from '@/pages/User_Login'
+import Vehicle_Models from '@/pages/Vehicle_Models'
 
 Vue.use(Router)
 
@@ -28,6 +29,11 @@ export default new Router({
       path: '/user',
       name: 'User',
       component: User
+    },
+    {
+      path: '/vehicle-Models',
+      name: 'Vehicle_Models',
+      component: Vehicle_Models
     },
   ]
 })

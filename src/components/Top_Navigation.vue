@@ -33,7 +33,7 @@ export default {
 }
 .wrapper{
     max-width: 1280px;
-    height: 35px;
+    height: 5vh;
     margin: auto;
     display: flex;
     justify-content: space-between;
@@ -45,7 +45,7 @@ ul {
 }
 li {
   display: inline-block;
-  margin: 0 10px;
+  margin: 0 10px 0 0;
 }
 a {
   color: #575757;
