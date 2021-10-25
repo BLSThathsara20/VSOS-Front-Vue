@@ -1,15 +1,17 @@
 <template>
     <div id="main-slider">
         <div class="wrapper">
+            <!-- <Brand_Carosal/> -->
         </div>
     </div>
 </template>
 
 <script>
-
+import Brand_Carosal from '@/components/Brand_Carosal'
 export default {
     name: 'Main_Slider',
     components : {
+        Brand_Carosal,
     },
     data(){
         return{
