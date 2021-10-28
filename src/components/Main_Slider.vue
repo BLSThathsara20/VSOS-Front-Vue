@@ -57,7 +57,7 @@ export default {
     }
 @media only screen and (max-width: 480px) {
   .wrap-content{
-      padding-left: 20px;
+      text-align: center;
   }
 }
 </style>
