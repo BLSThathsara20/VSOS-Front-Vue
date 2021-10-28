@@ -22,6 +22,7 @@ export default {
 <style>
 body{
   margin: 0;
+  font-family: 'Cairo', sans-serif;
 }
 .wrapper{
     max-width: 1280px;

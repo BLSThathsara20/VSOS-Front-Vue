@@ -69,6 +69,9 @@ export default {
   font-family: 'Cairo', sans-serif;
 }
 @media only screen and (max-width: 480px) {
-  
+    .wrapper{
+        display: flex;
+        justify-content: space-between;
+    }  
 }
 </style>

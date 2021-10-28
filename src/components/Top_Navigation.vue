@@ -61,5 +61,8 @@ a {
   .left-top-navigation{
       display: none;
   }
+  .wrapper{
+      justify-content: center;
+  }
 }
 </style>
