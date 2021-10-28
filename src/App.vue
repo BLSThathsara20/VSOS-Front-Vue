@@ -20,6 +20,9 @@ export default {
 </script>
 
 <style>
+body{
+  margin: 0;
+}
 .wrapper{
     max-width: 1280px;
     height: 35px;
