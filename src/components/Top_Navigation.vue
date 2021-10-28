@@ -30,10 +30,13 @@ export default {
 <style scoped>
 #top-navigation{
     background-color: #F7F7F7;
+    height: 5vh;
+    width: 100%;
+    position: fixed;
+    
 }
 .wrapper{
     max-width: 1280px;
-    height: 5vh;
     margin: auto;
     display: flex;
     justify-content: space-between;
@@ -52,6 +55,7 @@ a {
   font-size: small;
   letter-spacing: 1.5px;
   text-decoration: none;
+  font-family: 'Cairo', sans-serif;
 }
 @media only screen and (max-width: 480px) {
   .left-top-navigation{
