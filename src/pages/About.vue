@@ -1,7 +1,7 @@
 <template>
     <div id="about">
         <h1>about</h1>
-        <input type="text" placeholder="enter url" v-model="url" />
+        <input type="text" placeholder="https://watervilla.s3.eu-west-2.amazonaws.com/images/hotel/103207/hotelimages/" v-model="url" />
         <p>{{url}}001.jpg</p>
         <p>{{url}}002.jpg</p>
         <p>{{url}}003.jpg</p>
