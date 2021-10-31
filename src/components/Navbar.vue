@@ -1,12 +1,12 @@
 <template>
     <div id="navbar">
         <div class="wrapper">
-            <div class="left logo">
+            <div class="logo">
                 <router-link :to="{name : 'Home'}">
                     <img src="@/assets/logo.png" alt="">
                 </router-link>
             </div>
-            <div class="left navigation">
+            <div class="navigation">
                 <ul>
                     <li>
                         <router-link :to="{name : 'Vehicle_Models'}">MODELS</router-link>
@@ -38,7 +38,7 @@ export default {
 .wrapper{
     height: 8vh;
     display: flex;
-    justify-content: flex-start;
+    justify-content: space-between;
     align-items: center;
 }
 .logo{
@@ -58,7 +58,7 @@ export default {
 }
 .navigation ul li {
   display: inline-block;
-  margin: 0 50px;
+  margin-left: 50px;
 }
 .navigation ul li a {
   color: #ffffff;
@@ -72,6 +72,10 @@ export default {
     .wrapper{
         display: flex;
         justify-content: space-between;
-    }  
+    }
+    .navigation ul li {
+    display: inline-block;
+    margin-right: 30px;
+    }
 }
 </style>

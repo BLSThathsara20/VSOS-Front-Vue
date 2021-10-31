@@ -51,7 +51,7 @@ export default {
         border-radius: 40px;
     }
     .user-login{
-        padding: 50px;
+        padding: 35px;
     }
     .user-login form{
         display: flex;
@@ -77,6 +77,7 @@ export default {
         font-size: 18px;
         border: 1.5px solid rgb(90, 90, 90);
         border-radius: 5px;
+        padding: 2px 8px;
     }
     .user-login form label{
         font-size: 18px;
