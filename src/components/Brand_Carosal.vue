@@ -31,16 +31,12 @@ export default {
     #brand-carosal{
         background-color: rgb(255, 255, 255);
         width: 100%;
-        height: 10vh;
         margin-top: 10px;
         overflow: hidden;
     }
     .brands {
-        height: 100%;
+        height: 10vh;
         display: flex;
-        align-items: center;
-        justify-content: center;
-        padding-top: 5vh;
         text-align: center;
         font-family: 'Cairo', sans-serif;
     }
@@ -48,18 +44,28 @@ export default {
         color: #575757;
         font-size: 16px;
         font-weight: bold;
+        display: flex;
+        justify-content: center;
+        margin: -15px;
+    }
+    .brands span:hover{
+        color: rgb(54, 213, 99);
     }
     .brands a img{
         width: auto;
-        height: 8vh;
+        height: 7vh;
     }
     .brands a{
         text-decoration: none;
-        margin: 0 45px 0 0;
+        margin: 0 50px 0 0;
     }
     @media only screen and (max-width: 480px) {
         .brands span{
         display: none;
+    }
+    .brands a{
+        display: flex;
+        align-items: center;
     }
     }
 </style>

@@ -30,14 +30,12 @@ export default {
 <style scoped>
 #top-navigation{
     background-color: #F7F7F7;
-    height: 5vh;
     width: 100%;
     position: fixed;
     
 }
 .wrapper{
-    max-width: 1280px;
-    margin: auto;
+    height: 5vh;
     display: flex;
     justify-content: space-between;
     align-items: center;

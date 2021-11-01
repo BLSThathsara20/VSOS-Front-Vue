@@ -38,7 +38,6 @@ export default {
 .wrapper{
     height: 8vh;
     display: flex;
-    justify-content: space-between;
     align-items: center;
 }
 .logo{

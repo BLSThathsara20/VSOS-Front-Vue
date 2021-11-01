@@ -44,7 +44,7 @@ export default {
         color: rgb(255, 255, 255);
         font-family: 'Orbitron', sans-serif;
         letter-spacing: 4px;
-        margin-top: 95vh;
+        margin-top: 48vh;
         
     }
     .nav-header{

@@ -1,6 +1,39 @@
 <template>
     <div id="contact">
-        <h1>contact</h1>
+        <div class="wrapper">
+            <div class="left-contact-details">
+                <div class="address">
+                    <h2>Address</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur.</p>
+                    </div>
+                <div class="phone">
+                    <h2>Lets Talk</h2>
+                    <a href="tel:+94764067093">(+94)76 406 7093</a>
+                    <a href="tel:+94764067093">(+94)76 406 7093</a>
+                </div>
+                <div class="mail">
+                    <h2>General Support</h2>
+                    <a href="mailto:blsthathsara@gmail.com">contact@motorific.com</a>
+                </div>
+                <div class="open-hours">
+                    <h2>We are Open</h2>
+                    <p>Monday - Friday 10AM -8PM</p>
+                </div>
+            </div>
+
+            <div class="right-contact-with-us">
+                <h3>Connect With Us</h3>
+                <p>Don’t Hesitate to Contact with us for any kind of information</p>
+                <form action="">
+                    <input type="text" placeholder="Your name">
+                    <input type="email" placeholder="Email" required>
+                    <input type="tel" placeholder="Telephone">
+                    <textarea name="message" id="message" cols="30" rows="5" placeholder="Your Message"></textarea>
+                    <button type="submit">Send Now</button>
+                </form>
+            </div>
+        </div>
+        <div class="map-view"></div>
     </div>
 </template>
 
