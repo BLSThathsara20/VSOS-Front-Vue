@@ -9,6 +9,7 @@
             <div class="wrap-content">
                 <h1 class="nav-header">STAY DRIVEN</h1>
                 <h3 class="nav-sub-header">Explore how we are keeping your experience as safe as it is exhilirating</h3>
+                <button>EXPLORE</button>
             </div>
         </div>
     </div>
@@ -44,8 +45,15 @@ export default {
         color: rgb(255, 255, 255);
         font-family: 'Orbitron', sans-serif;
         letter-spacing: 4px;
-        margin-top: 48vh;
-        
+        margin-top: 46vh;
+    }
+    .wrap-content button {
+        padding: 8px 40px;
+        cursor: pointer;
+        color: rgb(0, 0, 0);
+        background-color: white;
+        border: none;
+        border-radius: 5px;
     }
     .nav-header{
         font-size: 36px;

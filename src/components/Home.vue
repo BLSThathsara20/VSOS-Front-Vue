@@ -3,13 +3,13 @@
     <Main_Slider/>
     <div class="brif-info-section">
       <div class="wrapper">
-      <div class="left-ino-section">
-        <h1>SRI LANKA FIRST VEHICLE SPARE PART MARKETPLACE</h1>
-      </div>
-      <div class="right-info-section">
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Soluta quaerat eaque repellendus laboriosam! Nam optio consectetur.</p>
-        <button>LEARN MORE</button>
-      </div>
+        <div class="left-ino-section">
+          <h1>SRI LANKA FIRST VEHICLE SPARE PART MARKETPLACE</h1>
+        </div>
+        <div class="right-info-section">
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Soluta quaerat eaque repellendus laboriosam! Nam optio consectetur.</p>
+          <button>LEARN MORE</button>
+        </div>
       </div>
 
       <!-- Shoping tools -->
@@ -50,5 +50,10 @@ export default {
 
 <!-- Add "scoped" attribute to limit CSS to this component only -->
 <style scoped>
-
+  .left-ino-section{
+    width: 50%;
+  }
+  .right-ino-section{
+    width: 50%;
+  }
 </style>

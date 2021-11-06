@@ -8,9 +8,10 @@
             </div>
             <div class="navigation">
                 <ul>
-                    <li>
-                        <router-link :to="{name : 'Vehicle_Models'}">MODELS</router-link>
-                    </li>
+                    <li><router-link :to="{name : 'Vehicle_Models'}">SHOP BY MODELS</router-link></li>
+                    <li><router-link :to="{name : 'Tools_Consumables'}">CAR CONSUMABLES</router-link></li>
+                    <li><router-link :to="{name : 'Car_Care'}">CAR CARE</router-link></li>
+                    <li><router-link :to="{name : 'Dynolite_Oils'}">DYNOLITE OILS</router-link></li>
                 </ul>
             </div>
         </div>

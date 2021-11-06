@@ -1,8 +1,6 @@
 <template>
-    <div id="vehicle-models">
-        <div class="wrapper">
-            <Under_Construction/>
-        </div>
+    <div id="car-care">
+        <Under_Construction/>
     </div>
 </template>
 
@@ -10,8 +8,8 @@
 import Under_Construction from '@/components/Under_Construction'
 
 export default {
-    name: 'Vehicle_Models',
-    components : {
+    name: 'Car_Care',
+    components:{
         Under_Construction,
     },
     data(){
@@ -25,7 +23,4 @@ export default {
 
 <style scoped>
  
-@media only screen and (max-width: 480px) {
-  
-}
 </style>

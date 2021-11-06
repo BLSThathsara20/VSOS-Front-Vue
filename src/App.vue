@@ -31,4 +31,7 @@ body{
     max-width: 1280px;
     margin: auto;
 }
+a:hover{
+  color: #00A1F2;
+}
 </style>

@@ -87,7 +87,7 @@ export default {
     .footer-bottom{
         background-color: #1d1d1d;
         width: 100%;
-        height: 10vh;
+        height: 8vh;
         display: flex;
         justify-content: space-between;
     }
@@ -111,10 +111,6 @@ export default {
     a{
         text-decoration: none;
         color: #797979;
-    }
-    a:hover{
-        text-decoration: none;
-        color: #38ec53;
     }
     .footer-column{
         max-width: 200px;

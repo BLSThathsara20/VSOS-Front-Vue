@@ -6,10 +6,10 @@
                     <h1>Log In</h1>
                     <form action="">
                         <label for="email">Email address</label>
-                        <input type="email" id="email" required>
+                        <input type="email" id="email" required/>
                         <label class="password-input" for="password">Password</label>
-                        <input type="password" id="password" required>
-                        <button>Sign In</button>
+                        <input type="password" id="password" required/>
+                        <button type="submit">Sign In</button>
                         <a href="#">Fogot password?</a>
                         <div class="socil-logins">
                             <!-- <ul>
@@ -78,7 +78,7 @@ export default {
         border: 1.5px solid rgb(90, 90, 90);
         border-radius: 5px;
         padding: 2px 8px;
-        outline-color: rgb(0, 0, 0);
+        outline: none;
     }
     .user-login form label{
         font-size: 18px;

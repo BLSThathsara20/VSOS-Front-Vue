@@ -5,6 +5,9 @@ import Contact from '@/pages/Contact'
 import About from '@/pages/About'
 import User from '@/pages/User_Login'
 import Vehicle_Models from '@/pages/Vehicle_Models'
+import Car_Care from '@/pages/Car_Care'
+import Tools_Consumables from '@/pages/Tools_Consumables'
+import Dynolite_Oils from '@/pages/Dynolite_Oils'
 
 Vue.use(Router)
 
@@ -34,6 +37,21 @@ export default new Router({
       path: '/vehicle-Models',
       name: 'Vehicle_Models',
       component: Vehicle_Models
+    },
+    {
+      path: '/car-care',
+      name: 'Car_Care',
+      component: Car_Care
+    },
+    {
+      path: '/tools-consumables',
+      name: 'Tools_Consumables',
+      component: Tools_Consumables
+    },
+    {
+      path: '/dynolite-oils',
+      name: 'Dynolite_Oils',
+      component: Dynolite_Oils
     },
   ]
 })
